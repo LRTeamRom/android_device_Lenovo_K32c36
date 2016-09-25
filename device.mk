@@ -273,4 +273,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/synaptics_rmi4_i2c.kl:system/usr/keylayout/synaptics_rmi4_i2c.kl
 
 # call the proprietary setup
-$(call inherit-product-if-exists, vendor/Lenovo/K32c30/K32c30-vendor.mk)
+$(call inherit-product-if-exists, vendor/Lenovo/K32c36/K32c36-vendor.mk)
