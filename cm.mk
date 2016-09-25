@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-$(call inherit-product, device/Lenovo/K32c30/device.mk)
+$(call inherit-product, device/Lenovo/K32c36/device.mk)
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
-PRODUCT_NAME := cm_K32c30
-PRODUCT_DEVICE := K32c30
+PRODUCT_NAME := cm_K32c36
+PRODUCT_DEVICE := K32c36
 PRODUCT_BRAND := Lenovo
-PRODUCT_MODEL := Lenovo K32c30
+PRODUCT_MODEL := Lenovo K32c36
 PRODUCT_MANUFACTURER := Lenovo
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
@@ -34,5 +34,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=Lenovo/K32c30/K32c30:5.1.1/LMY47V/K32c30_S034_160421:user/release-keys \
     PRIVATE_BUILD_DESC="K32c30-user 5.1.1 LMY47V K32c30_S034_160421 release-keys" \
-    TARGET_DEVICE="K32c30" \
-    PRODUCT_NAME="K32c30"
+    TARGET_DEVICE="K32c36" \
+    PRODUCT_NAME="K32c36"
