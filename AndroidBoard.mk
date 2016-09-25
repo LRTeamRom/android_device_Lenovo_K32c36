@@ -4,6 +4,6 @@ LOCAL_PATH := $(cal my-dir)
 # -----------------------------------
 #
 
-include device/Lenovo/K32c30/kernel/AndroidKernel.mk
+include device/Lenovo/K32c36/kernel/AndroidKernel.mk
 
 ALL_PREBUILT += $(INSTALLED_KERNEL_TARGET)
