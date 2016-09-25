@@ -1,7 +1,7 @@
 ###############################################################################
 # WebView Chromium
 LOCAL_PATH := $(call my-dir)
-ifneq ($(filter K32c30,$(TARGET_DEVICE)),)
+ifneq ($(filter K32c36,$(TARGET_DEVICE)),)
 #ifeq ($(PRODUCT_PREBUILT_WEBVIEWCHROMIUM),yes)
 include $(CLEAR_VARS)
 LOCAL_MODULE := WebViewGoogle
