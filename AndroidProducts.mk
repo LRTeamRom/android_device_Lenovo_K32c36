@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/K32c30.mk
+    $(LOCAL_DIR)/K32c36.mk
