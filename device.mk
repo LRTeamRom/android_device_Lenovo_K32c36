@@ -27,6 +27,10 @@ PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/WebViewGoogle/overlay
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernel/kernel:kernel
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml \
