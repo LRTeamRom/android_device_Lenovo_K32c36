@@ -3,7 +3,7 @@ PERL		= perl
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
 
-LOCAL_PRIVATE_PATH := device/Lenovo/K32c30/kernel
+LOCAL_PRIVATE_PATH := device/Lenovo/K32c36/kernel
 
 TARGET_KERNEL_ARCH := $(strip $(TARGET_KERNEL_ARCH))
 ifeq ($(TARGET_KERNEL_ARCH),)
