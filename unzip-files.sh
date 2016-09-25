@@ -7,7 +7,7 @@ if [ "x$UPDATE_PACKAGE" = "x" ]; then
     exit
 fi
 
-BASE=../../../vendor/Lenovo/K32c30/proprietary
+BASE=../../../vendor/Lenovo/K32c36/proprietary
 rm -rf $BASE/*
 
 for FILE in `egrep -v '(^#|^$)' proprietary-blobs.txt | sed -e "s/^-//g"`; do
