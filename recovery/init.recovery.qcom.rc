@@ -4,7 +4,7 @@ on init
     write /sys/devices/platform/msm_hsusb/gadget/lun0/ro 0
     
     write /sys/class/android_usb/android0/iManufacturer "Lenovo"
-    write /sys/class/android_usb/android0/iProduct "Lenovo K32c30"
+    write /sys/class/android_usb/android0/iProduct "Lenovo K32c36"
     
 
 
