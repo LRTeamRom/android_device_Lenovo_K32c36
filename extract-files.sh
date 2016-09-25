@@ -3,7 +3,7 @@
 set -e
 
 export VENDOR=Lenovo
-export DEVICE=K32c30
+export DEVICE=K32c36
 
 while getopts ":hd:" options
 do
