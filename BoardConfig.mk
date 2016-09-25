@@ -16,7 +16,7 @@
 
 BOARD_VENDOR := Lenovo
 
-DEVICE_PATH := device/Lenovo/K32c30
+DEVICE_PATH := device/Lenovo/K32c36
 
 PRODUCT_PREBUILT_WEBVIEWCHROMIUM := yes
 
@@ -49,7 +49,7 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := console=115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk androidboot.selinux=permissive
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
-BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x00000100 --dt device/Lenovo/K32c30/kernel/dt.img
+BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x02000000 --tags_offset 0x00000100 --dt device/Lenovo/K32c36/kernel/dt.img
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
@@ -181,4 +181,4 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE := 33554432
 BOARD_PERSISTIMAGE_FILE_SYSTEM_TYPE := ext4
 
 # inherit from the proprietary version
--include vendor/Lenovo/K32c30/BoardConfigVendor.mk
+-include vendor/Lenovo/K32c36/BoardConfigVendor.mk
